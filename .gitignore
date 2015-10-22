@@ -1,0 +1,8 @@
+/vendor
+/composer.lock
+/webapp/assets/*
+/app/configs/*-local.php
+/app/assets/app/*.js
+/app/assets/app/*.map
+/app/assets/app/js/*/*.js
+/app/assets/app/js/*/*.map

@@ -1,0 +1,20 @@
+{
+  "name": "linpax/micro-app-angular",
+  "description": "MicroPHP, AngularJS and Resangular with CoffeeScript classes",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4.0",
+    "ext-mbstring": "*",
+    "lib-pcre": ">=8.31",
+    "linpax/microphp-framework": "dev-master"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "bower install"
+    ],
+    "post-update-cmd": [
+      "bower update"
+    ]
+  }
+}

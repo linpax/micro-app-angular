@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "",
+  "authors": [],
+  "description": "Marketplace",
+  "main": "index.php",
+  "moduleType": [],
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "vendor/bower"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "restangular": "~1.5.1",
+    "bootswatch-dist": "lumen",
+    "angular-bootstrap": "~0.14.1"
+  }
+}
