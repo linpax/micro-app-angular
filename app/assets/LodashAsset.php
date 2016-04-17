@@ -1,9 +1,9 @@
 <?php
 
-namespace App\assets;
+namespace App\Assets;
 
-use Micro\mvc\views\IView;
-use Micro\web\Asset;
+use Micro\Mvc\Views\IView;
+use Micro\Web\Asset;
 
 class LodashAsset extends Asset
 {
@@ -13,7 +13,7 @@ class LodashAsset extends Asset
 
     /**
      * @param IView $view
-     * @throws \Micro\base\Exception
+     * @throws \Micro\Base\Exception
      */
     public function __construct(IView $view)
     {

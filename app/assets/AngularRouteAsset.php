@@ -1,13 +1,13 @@
 <?php
 
-namespace App\assets;
+namespace App\Assets;
 
-use Micro\mvc\views\IView;
-use Micro\web\Asset;
+use Micro\Mvc\Views\IView;
+use Micro\Web\Asset;
 
 /**
  * Class AngularRouteAsset
- * @package App\assets
+ * @package App\Assets
  */
 class AngularRouteAsset extends Asset
 {
@@ -17,7 +17,7 @@ class AngularRouteAsset extends Asset
 
     /**
      * @param IView $view
-     * @throws \Micro\base\Exception
+     * @throws \Micro\Base\Exception
      */
     public function __construct(IView $view)
     {

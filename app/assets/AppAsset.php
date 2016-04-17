@@ -1,14 +1,14 @@
 <?php
 
-namespace App\assets;
+namespace App\Assets;
 
-use Micro\mvc\views\IView;
-use Micro\web\Asset;
+use Micro\Mvc\Views\IView;
+use Micro\Web\Asset;
 
 /**
  * Class AppAsset
  *
- * @package App\assets
+ * @package App\Assets
  */
 class AppAsset extends Asset
 {
@@ -18,19 +18,19 @@ class AppAsset extends Asset
 
     /**
      * @param IView $view
-     * @throws \Micro\base\Exception
+     * @throws \Micro\Base\Exception
      */
     public function __construct(IView $view)
     {
         // required
         $this->required = [
-            '\App\assets\JQueryAsset',
-            '\App\assets\BootstrapAsset',
-            '\App\assets\AngularAsset',
-            '\App\assets\AngularRouteAsset',
-            '\App\assets\AngularBootstrapAsset',
-            '\App\assets\LodashAsset',
-            '\App\assets\RestAngularAsset'
+            '\App\Assets\JQueryAsset',
+            '\App\Assets\BootstrapAsset',
+            '\App\Assets\AngularAsset',
+            '\App\Assets\AngularRouteAsset',
+            '\App\Assets\AngularBootstrapAsset',
+            '\App\Assets\LodashAsset',
+            '\App\Assets\RestAngularAsset'
         ];
 
         // _common

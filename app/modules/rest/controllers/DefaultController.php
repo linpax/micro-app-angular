@@ -1,11 +1,8 @@
 <?php
 
-namespace App\modules\rest\controllers;
+namespace App\Modules\Rest\Controllers;
 
-use App\modules\catalog\models\Category;
-use Micro\mvc\controllers\RichController;
-use Micro\mvc\models\Query;
-use Micro\mvc\views\PhpView;
+use Micro\Mvc\Controllers\RichController;
 
 class DefaultController extends RichController
 {

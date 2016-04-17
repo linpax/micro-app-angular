@@ -14,7 +14,7 @@ return [
     'lang' => 'ru',
 
     // Errors
-    'errorController' => '\App\controllers\DefaultController',
+    'errorController' => '\App\Controllers\DefaultController',
     'errorAction' => 'error',
 
     // Parameters

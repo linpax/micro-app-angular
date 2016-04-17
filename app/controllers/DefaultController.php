@@ -1,16 +1,16 @@
 <?php
 
-namespace App\controllers;
+namespace App\Controllers;
 
-use Micro\base\IContainer;
-use Micro\mvc\controllers\ViewController;
-use Micro\mvc\views\PhpView;
-use Micro\web\Html;
+use Micro\Base\IContainer;
+use Micro\Mvc\Controllers\ViewController;
+use Micro\Mvc\Views\PhpView;
+use Micro\web\Html\Html;
 
 /**
  * Class DefaultController
  *
- * @package App\controllers
+ * @package App\Controllers
  */
 class DefaultController extends ViewController
 {
@@ -19,7 +19,7 @@ class DefaultController extends ViewController
      *
      * @access public
      *
-     * @param Container $container
+     * @param IContainer $container
      * @param string $modules
      *
      * @result void
@@ -49,7 +49,7 @@ class DefaultController extends ViewController
     public function actionError()
     {
         $result = null;
-        /** @var \Micro\base\Exception $error */
+        /** @var \Micro\Base\Exception $error */
         if ($error = $this->container->request->post('error')) {
             $result .= Html::heading(3, $error->getMessage(), ['class' => 'text-danger bg-danger']);
         }

@@ -3,7 +3,7 @@
 return [
     'components' => [
         'router' => [
-            'class' => '\Micro\web\Router',
+            'class' => '\Micro\Web\Router',
             'arguments' => [
                 'routes' => [
                     '/rest/<module:\w+>/<controller:\w+>/<action:\w+>' => '/rest/<module>/<controller>/<action>',

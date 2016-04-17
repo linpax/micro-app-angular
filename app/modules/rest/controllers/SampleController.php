@@ -1,13 +1,13 @@
 <?php
 
-namespace App\modules\rest\controllers;
+namespace App\Modules\Rest\Controllers;
 
-use Micro\mvc\controllers\RichController;
+use Micro\Mvc\Controllers\RichController;
 
 /**
  * Class SampleController
  *
- * @package App\modules\rest\controllers
+ * @package App\Modules\Rest\Controllers
  */
 class SampleController extends RichController
 {

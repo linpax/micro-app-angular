@@ -1,11 +1,11 @@
 <?php
 
-use Micro\web\Html;
+use Micro\Web\Html\Html;
 
 /** @var string $content */
-/** @var \Micro\mvc\views\PhpView $this */
+/** @var \Micro\Mvc\Views\PhpView $this */
 
-(new \App\assets\AppAsset($this))->publish();
+(new \App\Assets\AppAsset($this))->publish();
 
 ?>
 <?= Html::doctype('html5') ?>
